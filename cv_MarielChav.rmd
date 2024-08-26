@@ -75,8 +75,6 @@ Contact {#contact}
 CV %>% print_contact_info()
 ```
 
-<br>
-<br>
 
 Programming Languages {#skills}
 --------------------------------------------------------------------------------
@@ -85,7 +83,14 @@ Programming Languages {#skills}
 CV %>% print_programming_languages()
 ```
 
-<br>
+
+Bioinformatic Skills {#skills}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_bioinformatic_habilities()
+```
+
 
 Languages {#skills}
 --------------------------------------------------------------------------------
@@ -101,7 +106,7 @@ Disclaimer {#disclaimer}
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available at [EveliaCoss/CV](https://github.com/EveliaCoss/CV) and is powered by [nstrayer/cv](https://github.com/nstrayer/cv).
+The source code is available at [MarielChaveste/CVMariel](https://github.com/MarielChaveste/CVMariel) and is powered by [nstrayer/cv](https://github.com/nstrayer/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -167,6 +172,15 @@ CV %<>% print_section('data_science_writings')
 CV %<>% print_section('academic_articles')
 ```
 
+
+Conference Participation {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('conference_participation')
+```
+<br>
+<br>
 
 
 Talks and Posters {data-icon=chalkboard-teacher}
